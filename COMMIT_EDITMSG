@@ -1,0 +1,28 @@
+Assistant checkpoint: Add New Chat button and fix title generation
+
+Assistant generated file changes:
+- client/src/components/ChatInterface.tsx: Add prominent New Chat button to main interface
+Add prominent New Chat button to main interface
+Import Plus icon for new chat button
+Add prominent New Chat button to main interface
+Import Plus icon for new chat button
+Add prominent New Chat button to main interface
+Import Plus icon for new chat button
+Add prominent New Chat button to main interface
+Import Plus icon for new chat button
+Add New Chat button next to settings
+Add prominent New Chat button to main interface
+Import Plus icon for new chat button
+Add New Chat button next to settings
+- client/src/pages/home.tsx: Pass onNewConversation prop to ChatInterface
+- client/src/hooks/useChat.ts: Ensure conversation history is invalidated when creating new chat
+- server/routes.ts: Fix Gemini model name for title generation
+
+---
+
+User prompt:
+
+it's good now, can you add the feature of "new chat" to save the previous chat data and also show in history section and opens a new chat
+
+Replit-Commit-Author: Assistant
+Replit-Commit-Session-Id: 03504884-f1b9-4e1e-805b-5bc1e7a2cd5d
